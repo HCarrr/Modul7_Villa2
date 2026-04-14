@@ -1,0 +1,27 @@
+{
+    "watchlistName": "Kutilang28",
+    "createdBy": "Kelompok 07 Villa",
+    "movies": [
+        {
+            "id": "K001",
+            "title": "Interstellar",
+            "year": 1999,
+            "genre": "Sci-Fi",
+            "rating": 9.1
+        },
+        {
+            "id": "K002",
+            "title": "Project Hail Mary",
+            "year": 2026,
+            "genre": "Sci-Fi",
+            "rating": 10.0
+        },
+        {
+            "id": "K003",
+            "title": "Spiderman 1",
+            "year": 2006,
+            "genre": "Superhero",
+            "rating": 8.2
+        }
+    ]
+}

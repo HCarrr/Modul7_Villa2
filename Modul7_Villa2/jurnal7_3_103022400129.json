@@ -1,0 +1,15 @@
+{
+    "GenreDictionary": {
+        "category": "Movie Genre dewo",
+        "GenreInfo": {
+            "id": "K1",
+            "name": "Science Fiction",
+            "description": "Genre yang melihatkan bagaimana keberadaan sains dimasa depan",
+            "popularMovies": [
+                "Interstellar",
+                "The Martian",
+                "Project Hail Mar"
+            ]
+        }
+    }
+}
