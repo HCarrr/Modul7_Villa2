@@ -1,0 +1,27 @@
+{
+    "watchlistName": "4uLmost",
+    "createdBy": "Kelompok 07 Villa",
+    "movies": [
+        {
+            "id": "K004",
+            "title": "ironMan",
+            "year": 1999,
+            "genre": "action",
+            "rating": 9.1
+        },
+        {
+            "id": "K005",
+            "title": "test",
+            "year": 2026,
+            "genre": "gatau",
+            "rating": 10.0
+        },
+        {
+            "id": "K006",
+            "title": "Spiderman 1",
+            "year": 2006,
+            "genre": "Superhero",
+            "rating": 8.2
+        }
+    ]
+}
