@@ -21,7 +21,20 @@ public class Program
             Console.WriteLine($"Durasi Film {favdwo?.durationMinutes} ");
             Console.WriteLine($"Apakah Film ini sudah ditonton{favdwo?.isWatched} ");
 
-            
+
+            string jsondwo2 = File.ReadAllText("jurnal7_2_103022400129.json");
+            var watchList = JsonSerializer.Deserialize<WatchList_103022400129>(jsondwo2, options);
+            Console.WriteLine($"Watchlist name: {watchList?.watchlistName} ");
+            Console.WriteLine($"Created By: {watchList?.createdBy} ");
+            Console.WriteLine("Watchlist:");
+            if (watchList?.movies != null)
+            {
+                for (int i = 0; i < watchList.movies.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1} {watchList.movies[i].id} {watchList.movies[i].title} ( {watchList.movies[i].year} - {watchList.movies[i].rating} )");
+                }
+            }
+
         }
         catch (Exception ex)
         {
