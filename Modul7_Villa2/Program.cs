@@ -19,8 +19,8 @@ public class Program
             Console.WriteLine($"Genre Film {favdwo?.genre} ");
             Console.WriteLine($"Rating Film {favdwo?.rating} ");
             Console.WriteLine($"Durasi Film {favdwo?.durationMinutes} ");
-            Console.WriteLine($"Apakah Film ini sudah ditonton{favdwo?.isWatched} ");
-
+            Console.WriteLine($"Apakah Film ini sudah ditonton {favdwo?.isWatched} ");
+            Console.WriteLine("==========================================================");
 
             string jsondwo2 = File.ReadAllText("jurnal7_2_103022400129.json");
             var watchList = JsonSerializer.Deserialize<WatchList_103022400129>(jsondwo2, options);
@@ -34,6 +34,8 @@ public class Program
                     Console.WriteLine($"{i + 1} {watchList.movies[i].id} {watchList.movies[i].title} ( {watchList.movies[i].year} - {watchList.movies[i].rating} )");
                 }
             }
+
+
 
         }
         catch (Exception ex)
