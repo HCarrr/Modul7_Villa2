@@ -1,0 +1,27 @@
+{
+    "watchlistName": "WL Huda",
+    "createdBy": "Kelompok 07 Villa",
+    "movies": [
+        {
+            "id": "F101",
+            "title": "The Matrix II",
+            "year": 1999,
+            "genre": "Action",
+            "rating": 8.7
+        },
+        {
+            "id": "F102",
+            "title": "Parasite Abis",
+            "year": 2019,
+            "genre": "Thriller",
+            "rating": 9.5
+        },
+        {
+            "id": "F103",
+            "title": "Avengers: Endgame",
+            "year": 2019,
+            "genre": "Superhero",
+            "rating": 8.6
+        }
+    ]
+}
